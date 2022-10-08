@@ -6,12 +6,14 @@ public class LearnMap {
         map.put(1, new Person("Alex"));
         map.put(2, new Person("Alexa"));
         map.put(3, new Person("Mary"));
+        map.put(2, new Person("Sexy")); // REPLACE
+
         System.out.println(map);
         System.out.println(map.size());
-        System.out.println(map.get(1)); // Person[name=Alex]
+        System.out.println(map.get(3)); // Person[name=Mary]
         System.out.println(map.containsKey(4)); // false
         System.out.println(map.keySet()); // [1, 2, 3]
-        System.out.println(map.entrySet()); // [1=Person[name=Alex], 2=Person[name=Alexa], 3=Person[name=Mary]]
+        System.out.println(map.entrySet()); // [1=Person[name=Alex], 2=Person[name=Sexy], 3=Person[name=Mary]]
         map.remove(3);
 
 
