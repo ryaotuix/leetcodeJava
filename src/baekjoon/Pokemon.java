@@ -1,3 +1,5 @@
+package baekjoon;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +16,7 @@ public class Pokemon {
         int m = Integer.parseInt(input[1]); // how many to find from hashmap
 
         Map<Integer, String> pokeDex = new HashMap<>();
-        // Map key = Integer, value = Pokemon name
+        // Map key = Integer, value = baekjoon.Pokemon name
         Map<String, Integer> pokeDex2 = new HashMap<>();
         // Map key = pokemon name, value = integer
 
